@@ -14,12 +14,12 @@ git clone https://github.com/Rady/cline.git
 
 2. Install dependencies:
 ```bash
-npm install
+npm run install:all
 ```
 
 3. Build the extension:
 ```bash
-npm run package && vsce package
+vsce package
 ```
 You can find the built extension in the current directory.
 

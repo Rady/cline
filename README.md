@@ -1,5 +1,30 @@
 # Cline (prev. Claude Dev) – \#1 on OpenRouter
 
+**Clone from Cline only with Deepseek Provider**
+
+Usage:
+
+1. Clone the repository _(Requires [git-lfs](https://git-lfs.com/))_:
+```bash
+git clone https://github.com/cline/cline.git
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Build the extension:
+```bash
+npm run package && vsce package
+```
+
+<p align="center">
+  <img src="assets/docs/DeepSeek-Provider.png" alt="DeepSeek Provider" width="100%" />
+</p>
+
+--------------------
+
 <p align="center">
   <img src="https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif" width="100%" />
 </p>

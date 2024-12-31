@@ -2,11 +2,14 @@
 
 **Clone from Cline only with Deepseek Provider**
 
+Honor thanks to [DeepSeek](https://deepseek.ai/) for making this possible!
+Many thanks to [Huge](https://github.com/Huge): https://github.com/cline/cline/pull/815
+
 Usage:
 
-1. Clone the repository _(Requires [git-lfs](https://git-lfs.com/))_:
+1. Clone the repository:
 ```bash
-git clone https://github.com/cline/cline.git
+git clone https://github.com/Rady/cline.git
 ```
 
 2. Install dependencies:
@@ -18,6 +21,9 @@ npm install
 ```bash
 npm run package && vsce package
 ```
+You can find the built extension in the current directory.
+
+======================
 
 <p align="center">
   <img src="assets/docs/DeepSeek-Provider.png" alt="DeepSeek Provider" width="100%" />
